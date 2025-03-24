@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="has-scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="O melhor hub de scripts do Brasil, com scripts para KhanAcademy, Alura, SPeak, Matific, TarefaSP e Kahoot. Desenvolvido por m4nst3in. Hasteie a Bandeira Negra, pirata! (Santos maior do Brasil)">
+    <meta name="monetag" content="d11813d3255c974ae90cd5a98f33eac4">
+    <title>Prism Breaker</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/playing-cards.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script></head>
+<body>
+    <div data-scroll-container>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/gifs/logo.gif" class="logo-gif" alt="Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="active">Início</a>
+                <a href="#scripts">Scripts</a>
+                <a href="#about">Sobre</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://discord.gg/TNcMhe9JXv" target="_blank" class="discord-icon">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://github.com/Vemchin" target="_blank" class="github-icon">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </nav>
+
+    <main data-scroll-section>
+        <section id="home" class="hero" data-scroll>
+            <div class="hero-logo">
+                <div id="leaf-container"></div>
+            </div>
+            <h1>Prism Breaker</h1>
+            <p class="hero-tagline">O melhor hub de scripts para plataformas educacionais!</p>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <i class="fas fa-code"></i>
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Plataformas</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <span class="stat-number" id="user-count">0k</span>
+                    <span class="stat-label">Usuários</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-clock"></i>
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Suporte</span>
+                </div>
+            </div>
+
+            <div class="hero-features">
+                <div class="feature-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Scripts Seguros</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-sync"></i>
+                    <span>Atualizações Constantes</span>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-rocket"></i>
+                    <span>Fácil de Usar</span>
+                </div>
+            </div>
+
+            <div class="hero-cta">
+                <button class="cta-button gradient-loading btn-common-size">Explorar Scripts</button>
+            </div>
+        </section>
+
+        <section id="scripts" class="scripts-section" data-scroll>
+            <h2>Scripts Disponíveis</h2>
+            <div class="playing-cards-container">
+
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">K</span>
+                                <img src="assets/images/KhanAcademy.png" alt="K" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/KhanAcademy.png" alt="KhanAcademy" class="card-main-image">
+                                <h3>KhanAcademy</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">K</span>
+                                <img src="assets/images/KhanAcademy.png" alt="K" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">A</span>
+                                <img src="assets/images/alura.png" alt="A" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/alura.png" alt="Alura" class="card-main-image">
+                                <h3>Alura</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">A</span>
+                                <img src="assets/images/alura.png" alt="A" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">S</span>
+                                <img src="assets/images/Speak.png" alt="S" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/Speak.png" alt="SPeak" class="card-main-image">
+                                <h3>SPeak</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">S</span>
+                                <img src="assets/images/Speak.png" alt="S" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">M</span>
+                                <img src="assets/images/Matific.png" alt="M" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/Matific.png" alt="Matific" class="card-main-image">
+                                <h3>Matific</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">M</span>
+                                <img src="assets/images/Matific.png" alt="M" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">T</span>
+                                <img src="assets/images/SaladoFuturo.png" alt="T" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/SaladoFuturo.png" alt="TarefaSP" class="card-main-image">
+                                <h3>TarefaSP</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">T</span>
+                                <img src="assets/images/SaladoFuturo.png" alt="T" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">K</span>
+                                <img src="assets/images/Kahoot.png" alt="K" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/Kahoot.png" alt="Kahoot" class="card-main-image">
+                                <h3>Kahoot</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">K</span>
+                                <img src="assets/images/Kahoot.png" alt="K" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">E</span>
+                                <img src="assets/images/Expansao.png" alt="E" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/Expansao.png" alt="Expansao" class="card-main-image">
+                                <h3>Expansao N.</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">E</span>
+                                <img src="assets/images/Expansao.png" alt="E" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">L</span>
+                                <img src="assets/images/Leiasemback.png" alt="Y" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/Leiasemback.png" alt="leiasp" class="card-main-image">
+                                <h3>LeiaSP</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">L</span>
+                                <img src="assets/images/Leiasemback.png" alt="Y" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="playing-card" data-tilt data-tilt-glare data-tilt-max-glare="0.8">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="card-corner top-left">
+                                <span class="card-value">S</span>
+                                <img src="assets/images/Spotify.png" alt="S" class="corner-icon">
+                            </div>
+                            <div class="card-center">
+                                <img src="assets/images/Spotify.png" alt="Spotify" class="card-main-image">
+                                <h3>Spotify</h3>
+                            </div>
+                            <div class="card-corner bottom-right">
+                                <span class="card-value">S</span>
+                                <img src="assets/images/Spotify.png" alt="S" class="corner-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section fade-in" data-scroll>
+            <h2>Sobre o Projeto</h2>
+            <div class="about-content">
+                <div class="about-text fade-in fade-delay-1">
+                    <p>A Prism Breaker é uma plataforma focada em disponibilizar scripts para a automação de tarefas em plataformas educacionais. Nosso objetivo é tornar esses processos mais práticos por meio de soluções tecnológicas eficazes. Ressaltamos que apenas hospedamos os links dos scripts e não nos responsabilizamos pelo uso indevido ou por eventuais implicações legais. Caso precise solicitar a remoção de algum conteúdo do site, entre em contato pelo e-mail: v3mch1n@proton.me.</p>
+                    <ul class="features-list fade-in fade-delay-2">
+                        <li><i class="fas fa-check"></i> Scripts testados e funcionais</li>
+                        <li><i class="fas fa-check"></i> Atualizações constantes</li>
+                        <li><i class="fas fa-check"></i> Suporte via Discord</li>
+                        <li><i class="fas fa-check"></i> Compatível com principais navegadores</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer data-scroll-section>
+        <div class="footer-content">
+            <div class="footer-section">
+                <a href="https://discord.gg/TNcMhe9JXv" target="_blank">
+                    <img src="assets/images/banner_pd.png" alt="Platform Destroyer Banner" class="footer-banner">
+                </a>
+            </div>
+            <div class="footer-section">
+                <h4>Links Rápidos</h4>
+                <a href="#home">Início</a>
+                <a href="#scripts">Scripts</a>
+                <a href="#about">Sobre</a>
+            </div>
+            <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="http://127.0.0.1:5500/pd-website-main/Perfil/index.html"><i class="fab fa-github"></i></a>
+                    <a href="https://discord.gg/TNcMhe9JXv"><i class="fab fa-discord"></i></a>
+                    </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> Desenvolvido por <img src="assets/images/3894975e47f5c429bbf28c0ca004adb5.jpg" alt="Prussia Flag" style="height: 20px; vertical-align: middle; margin-right: 5px;"><a href="https://github.com/Vemchin" target="_blank">Vemchin</a></p>        </div>
+    </footer>
+</div>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.skypack.dev/three@0.136.0",
+                "three/examples/jsm/controls/OrbitControls": "https://cdn.skypack.dev/three@0.136.0/examples/jsm/controls/OrbitControls.js"
+            }
+        }
+    </script>
+    <script type="module" src="js/leaf3d.js"></script>
+    <script src="js/playing-cards.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
